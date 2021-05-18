@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/iconMenu.png">
+  <img width="150" height="150"src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/iconMenu.png">
   <img src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/titulo.png">
-  <img src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/iconMenu.png">
+  <img width="150" height="150"src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/iconMenu.png">
   
 </p>
 
@@ -19,7 +19,7 @@ Haz un programa que tenga un menú y que sea capaz de:
 
 
 # 📋 VIDEO
-[![HAZ CLIC AQUI PARA VER EL VIDEO](https://github.com/Almudena188/Calculadora-Sencilla/blob/main/Imagenes/portada2.png)](https://youtu.be/hu4GRYpCaHk)
+[![HAZ CLIC AQUI PARA VER EL VIDEO](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/miniatura%20-%20copia.png)](https://www.youtube.com/watch?v=4nxC67qbd6I)
 
 
 
