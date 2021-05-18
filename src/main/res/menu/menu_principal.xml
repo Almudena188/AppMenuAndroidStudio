@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_foto"
+
+        android:title="@string/menu_foto"
+
+        app:showAsAction="never">
+
+    </item>
+
+
+
+    <item android:id="@+id/menu_maps"
+
+        android:title="@string/menu_maps"
+
+        app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/menu_email"
+
+        android:title="@string/menu_email"
+
+        app:showAsAction="never">
+
+    </item>
+    <item android:id="@+id/menu_telefono"
+
+        android:title="@string/menu_telefono"
+
+        app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/menuAcercaDe"
+
+        android:title="@string/menuAcercaDe"
+
+        app:showAsAction="never">
+
+    </item>
+</menu>

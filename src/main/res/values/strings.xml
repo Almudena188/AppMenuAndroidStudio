@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Menu Almudena</string>
+    <string name="menu_foto">Foto</string>
+    <string name="menu_maps">Google Maps</string>
+    <string name="menu_email">Email</string>
+    <string name="menu_telefono">Contactos</string>
+    <string name="menuAcercaDe">Acerca de </string>
+    <string name="title_activity_foto">ActivityFoto</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

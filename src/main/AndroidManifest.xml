@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appmenu">
+    <!-- PERMISOS DE Pag Web -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+ <uses-feature android:name="android.hardware.telephony” android:required=”false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppMenu">
+
+        <activity android:name=".ActivityEmail">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Principal" />
+
+        </activity>
+        <activity android:name=".ActivityLlamar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Principal" />
+        </activity>
+        <activity
+            android:name=".ActivityMaps"
+            android:parentActivityName=".Principal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Principal" />
+        </activity>
+        <!-- AÑADE LA FLECHA DE VOLVER A LA PAGINA PRINCIPAL -->
+        <activity
+            android:name=".ActivityWeb"
+            android:parentActivityName=".Principal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Principal" />
+        </activity>
+        <!-- AÑADE LA FLECHA DE VOLVER A LA PAGINA PRINCIPAL -->
+        <activity
+            android:name=".ActivityAcercaDe"
+            android:parentActivityName=".Principal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Principal" />
+        </activity>
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

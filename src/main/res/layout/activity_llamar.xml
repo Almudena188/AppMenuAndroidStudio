@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLlamar">
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="161dp"
+        android:layout_height="85dp"
+        android:background="#08680D"
+        android:backgroundTint="#08680D"
+        android:onClick="llamar"
+        android:text="LLAMAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnContactos"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numTelf" />
+
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="161dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#81C0CF"
+        android:onClick="irContactos"
+        android:text="Contactos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnLlamar"
+        app:layout_constraintTop_toBottomOf="@+id/numTelf" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="265dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toTopOf="@+id/numTelf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/tel" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="378dp"
+        android:layout_height="55dp"
+        android:text="Marca el nº de teléfono"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numTelf"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLlamar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

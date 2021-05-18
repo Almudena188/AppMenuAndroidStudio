@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityEmail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="195dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            app:srcCompat="@drawable/email" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Destinatario:"
+            android:textColor="#9F80F4"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:hint="Ejemplo: correo@correo.com" />/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Asunto:"
+            android:textColor="#9F80F4"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editAsunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Mensaje:"
+            android:textColor="#9F80F4"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:autoLink="all"
+            android:autoText="true"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:backgroundTint="#F1E2D3"
+            android:onClick="enviar"
+            android:text="Enviar"
+            android:textColor="#9F80F4"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
