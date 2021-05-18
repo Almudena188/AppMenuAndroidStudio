@@ -73,17 +73,18 @@ Cuando le das al botón se abre otra activity donde se carga la url que hemos es
 En esta pantalla tenemos 2 opciones, o escribir un nº de teléfono y llamar, o buscarlo en contactos
   <br>
   OPCIÓN DE LLAMAR
+  <br>
   <img width="250" height="500" src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/11.jpeg">
   <img width="250" height="500" src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/12.jpeg">
    <br>
   OPCIÓN DE CONTACTOS
+  <br>
   <img width="250" height="500" src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/13.jpeg">
  </p>
  
   * Acerca de
 
 <p>
- 
   <img width="250" height="500" src="https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/image/14.jpeg">
  </p>
  
