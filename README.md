@@ -90,10 +90,23 @@ En esta pantalla tenemos 2 opciones, o escribir un nº de teléfono y llamar, o 
  
  # 📋 ENLACES DE INTERÉS
  
- * Haz clic [aquí](https://github.com/Almudena188/Calculadora-Sencilla/blob/main/src/main/java/com/example/calculator/Principal.java) para llegar al archivo de activityPrincipal.
-  * Haz clic [aquí](https://github.com/Almudena188/Calculadora-Sencilla/blob/main/src/main/java/com/example/calculator/ActivityResultado.java) para llegar al archivo de acivityResultado.
-  * Haz clic [aquí](https://github.com/Almudena188/Calculadora-Sencilla/blob/main/src/main/res/values/strings.xml) para llegar al archivo donde he cambiado el nombre de la app.
-  * Haz clic [aquí](https://github.com/Almudena188/Calculadora-Sencilla/blob/main/src/main/res/values/colors.xml) para llegar al archivo donde he cambiado los colores de la aplicación.
+ * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/java/com/example/appmenu/Principal.java) para llegar al archivo de activityPrincipal.
+  * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/java/com/example/appmenu/ActivityEmail.java) para llegar al archivo de acivity de Email.
+  * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/java/com/example/appmenu/ActivityAcercaDe.java) para llegar al archivo de acivity de Acerca de: .
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/java/com/example/appmenu/ActivityLlamar.java) para llegar al archivo de acivity de Llamar.
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/java/com/example/appmenu/ActivityMaps.java) para llegar al archivo de acivity de Maps.
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/java/com/example/appmenu/ActivityWeb.java) para llegar al archivo de acivity de Web.
+   
+   
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/layout/activity_principal.xml) para llegar al xml de activityPrincipal.
+  * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/layout/activity_email.xml) para llegar al xml de acivity de Email.
+  * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/layout/activity_acerca_de.xml) para llegar al xml de acivity de Acerca de: .
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/layout/activity_llamar.xml) para llegar al xml de acivity de Llamar.
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/layout/activity_maps.xml) para llegar al xml de acivity de Maps.
+   * Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/layout/activity_web.xml) para llegar al xml de acivity de Web.
+
+* Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/AndroidManifest.xml) para llegar al AndroidManifest.
+* Haz clic [aquí](https://github.com/Almudena188/AppMenuAndroidStudio/blob/main/src/main/res/menu/menu_principal.xml) para llegar al código del menú.
 
 # ✒️ Autor 
 Almudena Delgado Moscoso
